@@ -142,10 +142,7 @@ public class XML {
                 int flag = 0;
                 while (cellIterator.hasNext()) {
                     XSSFCell cell = (XSSFCell) cellIterator.next();
-                    if (cell.toString() == "") {
-                        exit = 1;
-                        break;
-                    }
+                   
                     //  System.out.println("CELL:-->"+cell.toString());
 
                     if (flag == 0) {
